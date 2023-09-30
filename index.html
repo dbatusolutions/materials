@@ -14,6 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+         <script src="https://cdn.tailwindcss.com"></script>
         <title>DBATU Solutions</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -78,7 +79,7 @@
 
                         <label for="cgpa">Enter your CGPA:</label>
                         <input type="number" id="cgpa" step="0.01" min="0" max="10" placeholder="Enter CGPA">
-                        <button onclick="convertToPercentage()">Convert</button>
+                        <button type ="button" style=" color:blue" class=" center btn btn-primary  py-1 px-3 hover:bg-gray-200 " onclick="convertToPercentage()">Convert</button>
                     
                         <p>Your Percentage is: <span id="percentage">__</span>%</p>
                     
